@@ -9,6 +9,6 @@ import Foundation
 
 extension Int {
     func toCurrencyIDR() -> String{
-        return "Rp" + String(self)
+        return "Rp " + String(self)
     }
 }
